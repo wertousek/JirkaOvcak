@@ -15,7 +15,7 @@ token = os.environ.get('TOKEN', None)
 
 
 client = bdbf.Client(commandPrefix = "-", embedFooter = {"text": "Powered by wertousek","icon_url":"https://cdn.discordapp.com/avatars/436131686640648195/d72e4885e1d21bca46bd245bb00c4687.png"})
-guild = client.get_guild(710900407639081002)
+guild = client.get_guild(825802518805086278)
 
 with open ("sprostySlovnik.json","r") as sprostySlovnik:
     sprostaSlova = json.loads(sprostySlovnik.read())
